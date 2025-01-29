@@ -68,6 +68,7 @@ namespace LinqToDB.CommandLine
 			AddOption(_dataModelOptions, DataModel.EmitTypedOptionsConstructor);
 			AddOption(_dataModelOptions, DataModel.DataContextName);
 			AddOption(_dataModelOptions, DataModel.DataContextBaseClass);
+			AddOption(_dataModelOptions, DataModel.DataContextModifier);
 			AddOption(_dataModelOptions, DataModel.EmitInitDataContextMethod);
 			AddOption(_dataModelOptions, DataModel.EmitStaticInitDataContextMethod);
 			AddOption(_dataModelOptions, DataModel.EmitAssociations);
@@ -88,7 +89,7 @@ namespace LinqToDB.CommandLine
 			AddOption(_dataModelOptions, DataModel.FindParametersInOrdinalOrder);
 			AddOption(_dataModelOptions, DataModel.EntityClassIsPartial);
 			AddOption(_dataModelOptions, DataModel.SchemaTypeClassNames);
-			AddOption(_dataModelOptions, DataModel.UseFluentEntityTypeDiscriminator);
+			AddOption(_dataModelOptions, DataModel.FluentEntityTypeDiscriminators);
 			// naming options
 			AddOption(_dataModelOptions, DataModel.DataContextClassNaming);
 			AddOption(_dataModelOptions, DataModel.EntityClassNaming);
